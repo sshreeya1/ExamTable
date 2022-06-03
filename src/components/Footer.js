@@ -89,25 +89,25 @@ const Footer = () => {
         </p>
         <p>©2022 Americal Association of Inidvidual Investors</p>
         <div>
-          <a className="footer_test" href="/">
+          <a style={{ color: "white",marginRight: "10px"  }} href="/">
             TOP
           </a>
-          <a className="footer_test" href="/">
+          <a style={{ color: "white", marginRight: "10px" }} href="/">
             HOME
           </a>
-          <a className="footer_test" href="/">
+          <a style={{ color: "white", marginRight: "10px" }} href="/">
             CONTACT US
           </a>
-          <a className="footer_test" href="/">
+          <a style={{ color: "white", marginRight: "10px" }} href="/">
             WEBSITE HELP
           </a>
-          <a className="footer_test" href="/">
+          <a style={{ color: "white", marginRight: "10px" }} href="/">
             SALES TAX FAQS
           </a>
-          <a className="footer_test" href="/">
+          <a style={{ color: "white", marginRight: "10px" }} href="/">
             PRIVACY POLICY
           </a>
-          <a className="footer_test" href="/">
+          <a style={{ color: "white", marginRight: "10px" }} href="/">
             DISCLAIMER
           </a>
         </div>
