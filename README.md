@@ -3,12 +3,15 @@
 
 npm install react-router-dom
 
-npm install react-icons --save
+## PROXY IS USED: 
+
+Therefore, use npm run server command at first hand to create JSON as API.
+
+## THEN RUN THE APPLICATION 
+
+npm run start OR, 
+npm run
 
 
-### Demo
 
-<a href="https://youtu.be/EdkBNqHxw5Y" rel="nofollow"> Live Demo </a>
 
-### Website
-<a href="https://codeat21.com/react-navbar-dropdown-menu-responsive-codeat21-com/" rel="nofollow"> Website </a>
