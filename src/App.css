@@ -76,12 +76,12 @@ li {
 }
 .header__middle__logo{
   width: 20%;
-  display: inline-block;
+  
   float: right;
 }
 .header__middle__menus {
   width: 70%;
-  display: inline-block;
+
   float: right;
 }
 .menu-item.menu__qqqitem a{

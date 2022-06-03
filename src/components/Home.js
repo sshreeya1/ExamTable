@@ -1,5 +1,6 @@
 import { Card, Row, Col } from "antd";
 import React from "react";
+import Footer from "./Footer";
 import StockTable from "./Table";
 
 const Home = () => {
@@ -51,7 +52,11 @@ const Home = () => {
           </Row>
         </div>
       </div>
-      <StockTable />
+      <div style={{ padding: "2rem" }}>
+        <StockTable />
+      </div>
+
+      <Footer />
     </>
   );
 };
