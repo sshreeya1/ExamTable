@@ -37,6 +37,7 @@ img {
 }
 .navBar .logo img {
   max-height: 120px;
+  
 }
 .is-active {
   color: #ff5800!important;
@@ -50,7 +51,7 @@ ul.main-menu {
   list-style: none;
   margin: 0px auto 0;
   padding: 0;
-  float: right;
+  float: none;
   z-index: 7;
 }
 ul.main-menu>li.menu-item:first-child {
@@ -59,6 +60,7 @@ ul.main-menu>li.menu-item:first-child {
 }
 .menu-item {
   line-height: 13x;
+  float:none;
 }
 li {
   list-style-type: none;
@@ -76,13 +78,13 @@ li {
 }
 .header__middle__logo{
   width: 20%;
-  
+  display: inline-block;
   float: right;
 }
 .header__middle__menus {
   width: 70%;
-
-  float: right;
+  display: inline-block;
+  float: left;
 }
 .menu-item.menu__qqqitem a{
   margin: 27px 10px;
@@ -175,7 +177,7 @@ li {
 .main-nav .menu-item:hover > a {color: #f44336 !important}
 .main-nav .menubar__button {
   display: block!important;
-  float: right;
+  float: left;
   background-color: #f0ebeb;
   color: rgb(0, 0, 0);
   padding: 6px 7px;
@@ -215,3 +217,11 @@ li {
   margin-right: 40px;
 
 }
+
+
+/*FOOTER CSS */
+.footer_test
+  { 
+    color: "white";
+    margin-right: "10px" ;
+   }
