@@ -22,7 +22,7 @@ import Investors from "./components/Investor";
 function App() {
   return (
     <div>
-      <Router basename="/">
+      <Router basename="/React">
         {/* Add Menu Component */}
         <Navbarmenu />
 
